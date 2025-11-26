@@ -35,7 +35,6 @@ public class Movie {
         return _title;
     }
 
-    // Mantemos aqui os métodos que ainda serão refatorados nos próximos passos
     public double getCharge(int daysRented) {
         return _price.getCharge(daysRented);
     }
